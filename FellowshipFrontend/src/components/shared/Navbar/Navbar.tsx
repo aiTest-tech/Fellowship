@@ -1,12 +1,13 @@
 import { useState } from "react";
 import Switcher from "../Switcher";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const [isToggle, setIsToggle] = useState(false);
   return (
-    <nav className="bg-white border-gray-200 dark:bg-black">
+    <nav className="bg-white border-gray-200 dark:bg-black fixed top-0 z-20 w-[100vw]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a
-          href="https://flowbite.com/"
+        <NavLink
+          to="http://localhost:5173/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
@@ -15,9 +16,9 @@ const Navbar = () => {
             alt="Flowbite Logo"
           />
           <span className="self-center text-2xl font-semibold whitespace-nowrap  text-[#ff9935]">
-            CMGGA
+            Sardar Patel Good Governance CM Fellowship
           </span>
-        </a>
+        </NavLink>
         <div className="flex gap-3 lg:flex-row-reverse  items-center">
           <div className="md:hidden">
             <Switcher />

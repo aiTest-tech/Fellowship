@@ -1,6 +1,12 @@
 import { lazy } from "react";
+import GovernmentWebsite from "../components/shared/GovernmentWebsite/GovernmentWebsite";
 const AboutUs = lazy(() => import("../components/shared/AboutUs/AboutUs"));
 const Carousel = lazy(() => import("../components/shared/Carousel/Carousel"));
+const Goals = lazy(() => import("../components/shared/Goals/Goals"));
+const Blogs = lazy(() => import("../components/shared/Blogs/Blogs"));
+const PhotoGallary = lazy(
+  () => import("../components/shared/PhotoGallary/PhotoGallary")
+);
 const HomePage = () => {
   return (
     <>
@@ -67,6 +73,15 @@ const HomePage = () => {
       </div>
       <div className="dark:bg-black">
         <AboutUs />
+      </div>
+      <div className="dark:bg-black">
+        <Goals />
+      </div>
+      <div className="dark:bg-black">
+        <PhotoGallary />
+      </div>
+      <div className="dark:bg-black">
+        <Blogs />
       </div>
     </>
   );
