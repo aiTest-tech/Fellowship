@@ -1,0 +1,24 @@
+/* Custom Map styles */
+.map-marker-hover:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+/* Mobile-first responsive map container */
+@media (max-width: 640px) {
+  .leaflet-container {
+    height: 50vh; /* Make the map smaller on mobile */
+  }
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+  .leaflet-container {
+    height: 55vh; /* Slightly bigger map on tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  .leaflet-container {
+    height: 60vh; /* Larger map for desktops */
+  }
+}

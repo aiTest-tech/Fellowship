@@ -54,17 +54,17 @@ const Footer = () => {
                     <div className="block-links-2">
                         <div className="links21">
                             <div className="footer-descriptor">SOCIALS</div>
-                            <a href="https://twitter.com/DePolySA" className="footer-link">
+                            <a href="https://x.com/CMOGuj" className="footer-link">
                                 x / twitter
                             </a>
-                            <a href="https://www.facebook.com/depoly.sa" className="footer-link">
+                            <a href="https://www.facebook.com/CMOGuj/" className="footer-link">
                                 facebook
                             </a>
-                            <a href="https://www.instagram.com/depoly.sa" className="footer-link">
+                            <a href="https://www.instagram.com/cmogujarat/" className="footer-link">
                                 Instagram
                             </a>
                             <a
-                                href="https://www.linkedin.com/company/depoly/"
+                                href="https://in.linkedin.com/in/cmogujarat"
                                 className="footer-link"
                             >
                                 Linkedin
@@ -92,18 +92,14 @@ const Footer = () => {
                     >
                         <p className="paragraph-5">
                             <strong>
-                                DePoly SA –HQ
+                                Gandhinagar
                                 <br />
                             </strong>
-                            Rue de l'Industrie 23, 1950 Sion, Valais, Switzerland
+                            Block No-7, 1st and 3rd floor,
+                            Block No-1 to 3,4,6,7 and 8 Floor,
+                            Sardar Patel Bhavan, New Sachivalay Gandhinagar, Gujarat.
                         </p>
-                        <p className="paragraph-5">
-                            <strong>
-                                DePoly SA –Showcase Plant
-                                <br />
-                            </strong>
-                            Route de l'Ile au Bois, 1870 Monthey, Valais, Switzerland
-                        </p>
+
                     </div>
                 </div>
                 <div
@@ -111,10 +107,7 @@ const Footer = () => {
                     className="w-layout-cell cell-11"
                 >
                     <p className="paragraph-3">
-                        DePoly’s technology recycles unsorted, dirty PET waste into virgin-grade
-                        raw materials. Those PET precursors, PTA and MEG, are used by the industry
-                        to produce new plastics without the need for fossil fuels, while diverting
-                        valuable materials from landfills and incineration.
+                        Sardar Patel Good Governance CM Fellowship Program
                     </p>
                 </div>
                 <div
@@ -252,7 +245,7 @@ const Footer = () => {
                     id="w-node-_8e913dbd-084f-928f-f996-e342330028ce-33002883"
                     className="w-layout-cell cell-16"
                 >
-                    <p className="small year">DePoly © 2024</p>
+                    <p className="small year">Copyright © 2024 Government of Gujarat.</p>
                     <div className="legal-holder">
                         <a
                             href="http://www.depoly.co/legal/cookies-policy"
